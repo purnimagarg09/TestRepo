@@ -1,5 +1,7 @@
-1. Clone : git clone <repo url in ssh>
-2. Pull : git pull
+1. Clone : git clone <repo url in ssh>		--> generally one time task
+2. Pull : git pull			--> since multiple users work, its always good to pull before making changes
 3. Make changes : add, remove, modify files
 4. Stage : git add .			(whatever new is added)
-5. Commit : git commit -m "message"
+5. Commit : git commit -m "message"			--> This will only save to local repo
+6. Push : git push    --> This is similar to git push origin main  : where origin means the current location from where we are pushing, and target is default branch name which is 'main'.
+Push will actually push it to main branch to reflect there
