@@ -1,0 +1,5 @@
+1. Clone : git clone <repo url in ssh>
+2. Pull : git pull
+3. Make changes : add, remove, modify files
+4. Stage : git add .			(whatever new is added)
+5. Commit : git commit -m "message"
